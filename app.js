@@ -12,7 +12,6 @@ const walletElement = document.getElementById("wallet");
 const  min = Math.ceil(500);
 const  max = Math.floor(2500);
 const  targetRich = Math.floor(Math.random() * (max - min) + min);
-console.log(`targetRich = ${targetRich}`);
 
 function updatSavingMoney(value) {
   const savingMoneyElement = document.getElementById('saving-money');
