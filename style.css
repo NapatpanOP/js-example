@@ -1,8 +1,56 @@
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+main {
+  padding: 1rem;
+  max-width: 790px;
+  margin: 0 auto;
+}
+
+.title {
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  color: dimgrey;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: lightseagreen;
+  margin-bottom: 0.25rem;
+}
+
+.btn-wrapper {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+button {
+  padding: 0.33rem 1.5rem;
+  background-color: darkslategray;
+  border: none;
+  border-radius: 99px;
+  min-width: 130px;
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: lightyellow;
+  cursor: pointer;
+}
+
+#saving-money {
+  text-align: center;
+  padding: 1.5rem 0;
+  font-size: 4.5rem;
+  font-family: 'Roboto', sans-serif;
+  color: deeppink;
+}
+
+#wallet {
+  padding: 4rem 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+img {
+  width: 100%;
+  width: 100px;
 }
